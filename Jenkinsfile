@@ -1,8 +1,8 @@
 pipeline {
 
   environment {
-    registry = "https://github.com/CPJayaprakash/Docker-Project/tree/master/flask"
-    registry_mysql = "https://github.com/CPJayaprakash/Docker-Project/tree/master/mysql"
+    registry = "10.202.0.3:5001/CPJayaprakash/Docker-Project/tree/master/flask"
+    registry_mysql = "10.202.0.3:5001/CPJayaprakash/Docker-Project/tree/master/mysql"
     dockerImage = ""
   }
 
